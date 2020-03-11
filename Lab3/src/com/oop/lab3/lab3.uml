@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_AUllUE5XEeqARemOfZW9xg" name="lab3">
+  <elementImport xmi:id="_AU9YwU5XEeqARemOfZW9xg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_AU9Ywk5XEeqARemOfZW9xg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+  </elementImport>
+  <elementImport xmi:id="_AU9Yw05XEeqARemOfZW9xg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+  </elementImport>
+  <elementImport xmi:id="_AU9YxE5XEeqARemOfZW9xg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+  </elementImport>
+  <elementImport xmi:id="_AU9YxU5XEeqARemOfZW9xg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+  </elementImport>
+  <elementImport xmi:id="_AU9_0E5XEeqARemOfZW9xg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_AU9_0U5XEeqARemOfZW9xg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+  </elementImport>
+  <elementImport xmi:id="_AU9_0k5XEeqARemOfZW9xg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+  </elementImport>
+  <elementImport xmi:id="_AU9_005XEeqARemOfZW9xg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_AU9_1E5XEeqARemOfZW9xg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <elementImport xmi:id="_AU9_1U5XEeqARemOfZW9xg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_AU9_1k5XEeqARemOfZW9xg">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <packageImport xmi:id="_AU8xsE5XEeqARemOfZW9xg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:id="_AU9YwE5XEeqARemOfZW9xg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_AU9_105XEeqARemOfZW9xg" name="com">
+    <packagedElement xmi:type="uml:Package" xmi:id="_AU9_2E5XEeqARemOfZW9xg" name="oop">
+      <packagedElement xmi:type="uml:Package" xmi:id="_AU9_2U5XEeqARemOfZW9xg" name="lab3">
+        <packagedElement xmi:type="uml:Class" xmi:id="_AU-m4E5XEeqARemOfZW9xg" name="HourlyEmployee" visibility="public">
+          <generalization xmi:id="_AVJmAE5XEeqARemOfZW9xg" general="_AU_N8U5XEeqARemOfZW9xg"/>
+          <ownedAttribute xmi:id="_AVKNEE5XEeqARemOfZW9xg" name="hoursWorked" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_AVK0IE5XEeqARemOfZW9xg" name="hourlyRate" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_AVT-EE5XEeqARemOfZW9xg" name="HourlyEmployee" visibility="public">
+            <ownedParameter xmi:id="_AVT-EU5XEeqARemOfZW9xg" name="firstName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_AVT-Ek5XEeqARemOfZW9xg" name="surName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_AVT-E05XEeqARemOfZW9xg" name="staffNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_AVT-FE5XEeqARemOfZW9xg" name="hoursWorked">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_AVT-FU5XEeqARemOfZW9xg" name="hourlyRate">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AVe9ME5XEeqARemOfZW9xg" name="calculatePay" visibility="public">
+            <ownedParameter xmi:id="_AVe9MU5XEeqARemOfZW9xg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AVouME5XEeqARemOfZW9xg" name="toString" visibility="public">
+            <ownedParameter xmi:id="_AVouMU5XEeqARemOfZW9xg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_AU-m4U5XEeqARemOfZW9xg" name="SalesEmployee" visibility="public">
+          <generalization xmi:id="_AV2JkE5XEeqARemOfZW9xg" general="_AU_N8U5XEeqARemOfZW9xg"/>
+          <ownedAttribute xmi:id="_AV2woE5XEeqARemOfZW9xg" name="commissionEarned" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_AV7pIE5XEeqARemOfZW9xg" name="SalesEmployee" visibility="public">
+            <ownedParameter xmi:id="_AV7pIU5XEeqARemOfZW9xg" name="firstName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_AV7pIk5XEeqARemOfZW9xg" name="surName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_AV7pI05XEeqARemOfZW9xg" name="staffNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_AV7pJE5XEeqARemOfZW9xg" name="annualSalary">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_AV7pJU5XEeqARemOfZW9xg" name="commissionEarned">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AWEMAE5XEeqARemOfZW9xg" name="calculatePay" visibility="public">
+            <ownedParameter xmi:id="_AWEMAU5XEeqARemOfZW9xg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AWN9AE5XEeqARemOfZW9xg" name="toString" visibility="public">
+            <ownedParameter xmi:id="_AWN9AU5XEeqARemOfZW9xg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_AU_N8E5XEeqARemOfZW9xg" name="Control" visibility="public">
+          <ownedOperation xmi:id="_AWqB4E5XEeqARemOfZW9xg" name="main" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_AWqB4U5XEeqARemOfZW9xg" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AWqB4k5XEeqARemOfZW9xg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_AU_N8U5XEeqARemOfZW9xg" name="Employee" visibility="public">
+          <ownedAttribute xmi:id="_AWzL0E5XEeqARemOfZW9xg" name="firstName" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_AWzy4E5XEeqARemOfZW9xg" name="surName" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_AW0Z8E5XEeqARemOfZW9xg" name="staffNumber" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_AW1BAE5XEeqARemOfZW9xg" name="annualSalary" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_AW8VwE5XEeqARemOfZW9xg" name="Employee" visibility="public">
+            <ownedParameter xmi:id="_AW8VwU5XEeqARemOfZW9xg" name="firstName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_AW8Vwk5XEeqARemOfZW9xg" name="surName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_AW8Vw05XEeqARemOfZW9xg" name="staffNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_AW8VxE5XEeqARemOfZW9xg" name="annualSalary">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AXFfsE5XEeqARemOfZW9xg" name="calculatePay" visibility="public">
+            <ownedParameter xmi:id="_AXFfsU5XEeqARemOfZW9xg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AXP3wE5XEeqARemOfZW9xg" name="toString" visibility="public">
+            <ownedParameter xmi:id="_AXP3wU5XEeqARemOfZW9xg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AXZowE5XEeqARemOfZW9xg" name="getFirstName" visibility="public">
+            <ownedParameter xmi:id="_AXZowU5XEeqARemOfZW9xg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AXmdEE5XEeqARemOfZW9xg" name="setFirstName" visibility="public">
+            <ownedParameter xmi:id="_AXnEIE5XEeqARemOfZW9xg" name="firstName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AXwOEE5XEeqARemOfZW9xg" name="getSurName" visibility="public">
+            <ownedParameter xmi:id="_AXwOEU5XEeqARemOfZW9xg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AX9pcE5XEeqARemOfZW9xg" name="setSurName" visibility="public">
+            <ownedParameter xmi:id="_AX9pcU5XEeqARemOfZW9xg" name="surName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AYHacE5XEeqARemOfZW9xg" name="getStaffNumber" visibility="public">
+            <ownedParameter xmi:id="_AYHacU5XEeqARemOfZW9xg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AYUOwE5XEeqARemOfZW9xg" name="setStaffNumber" visibility="public">
+            <ownedParameter xmi:id="_AYUOwU5XEeqARemOfZW9xg" name="staffNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AYdYsE5XEeqARemOfZW9xg" name="getAnnualSalary" visibility="public">
+            <ownedParameter xmi:id="_AYdYsU5XEeqARemOfZW9xg" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_AY2aQE5XEeqARemOfZW9xg" name="setAnnualSalary" visibility="public">
+            <ownedParameter xmi:id="_AY2aQU5XEeqARemOfZW9xg" name="annualSalary">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
